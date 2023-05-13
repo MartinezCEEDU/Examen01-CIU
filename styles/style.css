@@ -1,0 +1,162 @@
+body {
+  background-color: #f9f7fb;
+}
+
+.darkMode {
+  background-color: #232332;
+  color: white;
+}
+.darkMode nav {
+  background-color: #3b3566;
+}
+.darkMode nav button {
+  background-color: rgb(255 237 213);
+}
+.darkMode nav button i {
+  color: black;
+  background-color: rgb(255 237 213);
+}
+.darkMode .moon {
+  display: none;
+}
+.darkMode .sun {
+  display: inline;
+}
+.darkMode article:hover {
+  background-color: #3b3566;
+}
+
+.darkMode label {
+  color: white;
+}
+.darkMode footer {
+  background-color: #3b3566;
+  color: white;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  background-color: #e8dfef;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.sun {
+  display: none;
+}
+
+.banner {
+  margin-top: 70px;
+}
+.video_text {
+  margin: 18%;
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+.cards article {
+  width: 480px;
+  height: auto;
+}
+
+.card_img {
+  width: 280px;
+  height: 220px;
+}
+.card_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.Registrarse_img_text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.registrarse_text {
+  width: 520px;
+}
+.formulario {
+  margin-top: 80px;
+}
+.formulario_contenedor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main_formulario {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+footer {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #e8dfef;
+}
+
+.footer_locacion {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+  height: 78px;
+}
+
+.footer_logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+  height: 78px;
+}
+
+.footer_redes {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+  height: 78px;
+}
+
+@media screen and (max-width: 768px) {
+  .video_text {
+    margin: 0;
+  }
+  .cards {
+    margin: auto;
+  }
+  .Registrarse_img_tex{
+    margin: auto;
+  }
+  #Nosotros{
+    margin: auto;
+  }
+}

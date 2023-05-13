@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://kit.fontawesome.com/ec79076a32.js"
+      crossorigin="anonymous"
+    ></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="../styles/style.css" rel="stylesheet" type="text/css" />
+    <title>Registro</title>
+  </head>
+  <body>
+    <header>
+      <nav class="rounded-b-lg">
+        <section class="">
+          <a href="../index.html#inicio">
+            <!-- https://drive.google.com/uc?id=1-cpVEFgNrP01JTge1U_zgyN-a51SGrM6 -->
+            <img
+              src="https://drive.google.com/uc?id=1IqvJViLX-k6tzxOjN-VwctmdOVtzEpXL"
+              alt="Logo Academi e-learning"
+              width="50px"
+            />
+            <p>Academia</p>
+          </a>
+        </section>
+        <ul>
+          <li><a href="../index.html#Charlas">Charlas</a></li>
+          <li><a href="../index.html#Registrarse">Registrarse</a></li>
+          <li><a href="../index.html#Nosotros">Nosotros</a></li>
+        </ul>
+        <section>
+          <button class="rounded-full bg-violet-950 w-16 h-8 text-white" id="dark">
+            <i class="fa-regular fa-sun sun"></i>
+            <i class="fa-regular fa-moon moon"></i>
+          </button>
+        </section>
+      </nav>
+    </header>
+
+    <main class="main_formulario">
+      <section class="formulario border-2 rounded-lg w-6/12">
+        <div class="container formulario_contenedor p-4">
+          <h1 class="text-2xl font-bold mb-4">E-learning en el Metaverso de Vibrela</h1>
+          <h2 class="text-xl font-bold mb-4">17/06/2023</h2>
+
+          <form
+            class="max-w-md"
+            action="https://formsubmit.co/eze.cmartinez@gmail.com"
+            method="POST"
+         
+          >
+            <div class="mb-4">
+              <label
+                class="block text-gray-700 text-sm font-bold mb-2"
+                for="nombre"
+                >Nombre:</label
+              >
+              <input
+              name="name" 
+                class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                id="nombre"
+                type="text"
+                placeholder="Nombre"
+                required
+              />
+            </div>
+
+            <div class="mb-4">
+              <label
+                class="block text-gray-700 text-sm font-bold mb-2"
+                for="email"
+                >Email:</label
+              >
+              <input
+              name="email"
+                class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                id="email"
+                type="email"
+                placeholder="Email"
+                required
+              />
+            </div>
+
+            <div class="mb-4">
+              <label
+                class="block text-gray-700 text-sm font-bold mb-2"
+                for="telefono"
+                >Teléfono:</label
+              >
+              <input
+              name="telefono"
+                class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                id="telefono"
+                type="tel"
+                placeholder="Teléfono"
+                required
+              />
+            </div>
+
+            <div class="mb-4">
+              <label
+                class="block text-gray-700 text-sm font-bold mb-2"
+                for="evento"
+                >Evento:</label
+              >
+              <select
+              name="horario"
+                class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                id="evento"
+                required
+              >
+                <option value="">Seleccione un horario</option>
+                <option value="mañana">Por la mañana</option>
+                <option value="tarde">Por la tarde</option>
+                <option value="full">Dia completo</option>
+              </select>
+            </div>
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_inicio" value="">
+            <button
+            
+              class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline w-full mt-12"
+              type="submit"
+            >
+              Registrarse
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="p-4 rounded-t-lg">
+      <section class="footer_locacion">
+        <ul>
+          <li>
+            <i class="fa-brands fa-square-whatsapp"></i>
+            <a href="tel:+5412345678" target="_blank">+54 1234-5678</a>
+          </li>
+          <li>
+            <i class="fa-solid fa-envelope"></i>
+            <a href="mailto:info@academia.com" target="_blank"
+              >info@academia.com</a
+            >
+          </li>
+          <li>
+            <i class="fa-solid fa-map"></i>
+            <a
+              href="https://www.google.com/maps/place/El Salvador 5218, C1414 CABA"
+              target="_blank"
+              >Visitar nuestras oficinas</a
+            >
+          </li>
+        </ul>
+      </section>
+
+      <section class="footer_logo">
+        <a href="../index.html#inicio">
+          <img
+            src="https://drive.google.com/uc?id=1IqvJViLX-k6tzxOjN-VwctmdOVtzEpXL"
+            alt="Logo Academi e-learning"
+            width="50px"
+          />
+          <p class="mb-2 ">Academia</p>
+        </a>
+      </section>
+
+      <section class="footer_redes">
+        <a href="">
+          <i class="fa-brands fa-meta"></i>
+        </a>
+        <a href="">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+      </section>
+    </footer>
+    <script src="../js/main.js" type="module"></script>
+  </body>
+</html>

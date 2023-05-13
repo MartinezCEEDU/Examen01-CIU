@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://kit.fontawesome.com/ec79076a32.js"
+      crossorigin="anonymous"
+    ></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="styles/style.css" rel="stylesheet" type="text/css" />
+    <title>Inicio</title>
+  </head>
+  <body class="font-serif">
+    <header>
+      <nav class="rounded-b-lg">
+        <section class="">
+          <a href="#inicio">
+            <!-- https://drive.google.com/uc?id=1-cpVEFgNrP01JTge1U_zgyN-a51SGrM6 -->
+            <img
+            class="logo"
+              src="https://drive.google.com/uc?id=1IqvJViLX-k6tzxOjN-VwctmdOVtzEpXL"
+              alt="Logo Academi e-learning"
+              width="50px"
+            />
+            <p>Academia</p>
+          </a>
+        </section>
+        <ul>
+          <li><a href="#Charlas">Charlas</a></li>
+          <li><a href="#Registrarse">Registrarse</a></li>
+          <li><a href="#Nosotros">Nosotros</a></li>
+        </ul>
+        <section>
+          <button class="rounded-full bg-violet-950 w-16 h-8 text-white" id="dark">
+            <i class="fa-regular fa-sun sun"></i>
+            <i class="fa-regular fa-moon moon"></i>
+          </button>
+        </section>
+      </nav>
+    </header>
+
+    <section id="inicio" class="relative banner">
+      <video class="w-full object-cover" autoplay loop muted>
+        <source src="./video/video.mp4" type="video/mp4" />
+        Tu navegador no soporta la etiqueta de video.
+      </video>
+      <div
+        class="absolute top-0 left-0 w-full h-full bg-fuchsia-950 bg-opacity-80 p-4"
+        style="z-index: 1"
+      >
+        <section class="text-white video_text">
+          <p class="text-center text-6xl" >PROXIMO EVENTO</p>
+          <p class="text-center text-5xl mt-4 mb-4" id="contador"> 17/06/2023</p>
+          <p class="text-center text-lg">
+            En muchos sentidos, el Metaverso ya está aquí. Los mundos virtuales
+            como Roblox, Minecraft y Fortnite tienen miles de millones de
+            usuarios y economías que rivalizan con países pequeños. ¿Qué papel
+            jugarán los mundos virtuales y el Metaverso en el futuro del
+            trabajo? Únase a los líderes de pensamiento más destacados del mundo
+            en XR para una discusión animada mientras comparten su visión y
+            desentrañan esta pregunta.<br>
+            <button class="m-8 ">
+              <a
+                href="./pages/register.html"
+                class="rounded-lg bg-rose-400 text-white font-bold p-4 hover:bg-red-500"
+                >Regístrate ahora</a
+              >
+            </button>
+          </p>
+        
+        </section>
+      </div>
+    </section>
+
+    <main class="">
+      <section class="ml-20 mr-20" id="Charlas">
+        <h1 class="text-center mb-4 pt-2 text-4xl">
+          Evento de E-learning en el Metaverso de Vibrela
+        </h1>
+        <h2 class="text-center m-4 text-2xl">Cronograma</h2>
+        <section class="cards p-4">
+          <article
+            class="flex flex-row justify-around items-center pl-8 rounded-lg border border-gray-300 grayscale hover:grayscale-0 hover:bg-orange-100"
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
+            <section>
+              <h2 class="font-bold">
+                La tecnología en la educación del futuro
+              </h2>
+              <h4 class="italic">Orador: Ana Rodríguez</h4>
+              <h4 class="italic">Hora: 08am</h4>
+            </section>
+            <section class="card_img">
+              <img
+                class="rounded-r-lg"
+                src="https://images.unsplash.com/photo-1603354350317-6f7aaa5911c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8ZWR1Y2FjaW9uJTIwdGVjbm9sb2dpYXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                alt="niño estudiando"
+              />
+            </section>
+          </article>
+
+          <article
+            class="flex flex-row justify-around items-center pl-8 rounded-lg rounded-lg border border-gray-300 grayscale hover:grayscale-0 hover:bg-orange-100"
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
+            <section>
+              <h2 class="font-bold">Cómo Crear un Curso en Línea de Calidad</h2>
+              <h4 class="italic">Orador: Miguel García</h4>
+              <h4 class="italic">Horario: 09:30am</h4>
+            </section>
+            <section class="card_img">
+              <img
+                class="rounded-r-lg"
+                src="https://images.unsplash.com/photo-1516321497487-e288fb19713f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8ZWxlYXJuaW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                alt="personas trabajando enfrente de una pantalla"
+              />
+            </section>
+          </article>
+
+          <article
+            class="flex flex-row justify-around items-center pl-8 rounded-lg rounded-lg border border-gray-300 grayscale hover:grayscale-0 hover:bg-orange-100"
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
+            <section>
+              <h2 class="font-bold">Estrategias para la Enseñanza en Línea</h2>
+              <h4 class="italic">Orador: Laura Martínez</h4>
+              <h4 class="italic">Horario: 11am</h4>
+            </section>
+            <section class="card_img">
+              <img
+                class="rounded-r-lg"
+                src="https://images.unsplash.com/photo-1608600712992-03e5325d94c8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8ZWxlYXJuaW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                alt="notebook con clase en linea"
+              />
+            </section>
+          </article>
+
+          <article
+            class="flex flex-row justify-around items-center pl-8 rounded-lg rounded-lg border border-gray-300 grayscale hover:grayscale-0 hover:bg-orange-100"
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
+            <section>
+              <h2 class="font-bold">
+                El Metaverso y su impacto en la sociedad
+              </h2>
+              <h4 class="italic">Orador: Gabriela Torres</h4>
+              <h4 class="italic">Hora: 13pm</h4>
+            </section>
+            <section class="card_img">
+              <img
+                class="rounded-r-lg"
+                src=" https://drive.google.com/uc?id=1ARi13xWbmBnb7iAW1ZKI6Ylt_2wlY-sQ"
+                alt="ciudad futurista"
+              />
+            </section>
+          </article>
+
+          <article
+            class="flex flex-row justify-around items-center pl-8 rounded-lg rounded-lg border border-gray-300 grayscale hover:grayscale-0 hover:bg-orange-100"
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
+            <section>
+              <h2 class="font-bold">Metaverso: Más allá de las pantallas</h2>
+              <h4 class="italic">Orador: Juan González</h4>
+              <h4 class="italic">Horario: 15pm</h4>
+            </section>
+            <section class="card_img">
+              <img
+                class="rounded-r-lg"
+                src="https://plus.unsplash.com/premium_photo-1665203595406-6c4d281a9a14?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWV0YXZlcnNvfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                alt="señora mayor utilizando vr"
+              />
+            </section>
+          </article>
+
+          <article
+            class="flex flex-row justify-around items-center pl-8 rounded-lg rounded-lg border border-gray-300 grayscale hover:grayscale-0 hover:bg-orange-100"
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
+            <section>
+              <h2 class="font-bold">Metaverso: La Revolución del eLearning</h2>
+              <h4 class="italic">Orador: Valeria López</h4>
+              <h4 class="italic">Horario: 17pm</h4>
+            </section>
+            <section class="card_img">
+              <img
+                class="rounded-r-lg"
+                src="https://drive.google.com/uc?id=1YsLO8LIenfwoCPMc8Y5YK4EWt4Kcbb5f"
+                alt="mujer utilizando realidad virtual"
+              />
+            </section>
+          </article>
+        </section>
+      </section>
+      <hr class="separador_registro mt-10" />
+      <section class="p-4 m-4 flex flex-col flex-wrap" id="Registrarse">
+        <h2 class="text-center m-4 text-4xl">Registrate</h2>
+        <p class="text-center m-4 text-xl">
+          ¡Únete al evento más importante de la plataforma de e-learning!
+        </p>
+
+        <section class="Registrarse_img_tex flex-wrapt">
+          <section>
+            <img
+              class="rounded-md"
+              src="https://assets-global.website-files.com/5f50f7cde6ed0e3e54c7fb94/6086ec83e83b401bca9a8c43_virbela-auditorium.jpg"
+              alt="imagen de auditorio en metaverso"
+            />
+          </section>
+          <section class="registrarse_text">
+            <p class="text-lg">
+              No te pierdas el evento más importante de e-learning de este
+              año.<br />
+              Únete a nosotros en línea para descubrir las últimas tendencias y
+              tecnologías en educación en línea, desde la comodidad de tu hogar
+              o tu lugar de trabajo.<br />
+              Este evento está organizado por nuestra plataforma de e-learning
+              líder en el mercado, y estamos emocionados de compartir nuestras
+              últimas innovaciones contigo. Desde nuevos cursos hasta
+              herramientas de aprendizaje más avanzadas, tendrás la oportunidad
+              de conocer las últimas novedades y conectarte con otros
+              estudiantes y expertos en el campo. <br />
+              Este evento en línea es gratuito y accesible desde cualquier parte
+              del mundo. No necesitas viajar ni gastar dinero para asistir. Todo
+              lo que necesitas es registrarte en nuestra página web y podrás
+              acceder a todo el contenido en línea durante el evento. ¿Estás
+              listo para experimentar la próxima generación de e-learning?
+              Regístrate hoy mismo para asegurar tu lugar en el evento más
+              emocionante del año. ¡Te esperamos allí!
+            </p>
+          </section>
+        </section>
+
+        <button class="m-8">
+          <a
+            href="./pages/register.html"
+            class="rounded-lg bg-rose-400 text-white font-bold p-4 hover:bg-red-500"
+            >Regístrate ahora</a
+          >
+        </button>
+      </section>
+      <hr class="separador_nosotros" />
+      <h2 class="text-center m-4 text-4xl">Nosotros</h2>
+      <section
+        class="p-4 flex flex-row items-center justify-around flex-wrap"
+        id="Nosotros"
+      >
+        <section style="width: 550px">
+          <p class="text-lg">
+            Somos una plataforma de e-learning dedicada a brindar una
+            experiencia educativa de calidad a través de la tecnología.
+            Ofrecemos una amplia variedad de cursos y programas diseñados por
+            expertos en la materia. Nuestro objetivo es hacer que el aprendizaje
+            sea accesible y conveniente para todos, brindando un enfoque
+            personalizado y flexible. Estamos comprometidos con la excelencia y
+            el éxito de nuestros estudiantes, mejorando constantemente nuestra
+            plataforma para ofrecer la mejor experiencia educativa posible.
+            ¡Únete a nuestra comunidad de estudiantes y comienza a transformar
+            tu futuro hoy mismo!
+          </p>
+        </section>
+        <section class="">
+          <img
+            class="rounded-md"
+            src="https://images.unsplash.com/photo-1455849318743-b2233052fcff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YWJvdXR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+            alt="pies con una frase en el piso, passion led us here"
+          />
+        </section>
+      </section>
+    </main>
+
+    <footer class="p-4 rounded-t-lg">
+      <section class="footer_locacion">
+        <ul>
+          <li>
+            <i class="fa-brands fa-square-whatsapp"></i>
+            <a href="tel:+5412345678" target="_blank">+54 1234-5678</a>
+          </li>
+          <li>
+            <i class="fa-solid fa-envelope"></i>
+            <a target="_blank" href="mailto:info@academia.com"
+              >info@academia.com</a
+            >
+          </li>
+          <li>
+            <i class="fa-solid fa-map"></i>
+            <a
+              href="https://www.google.com/maps/place/El Salvador 5218, C1414 CABA"
+              target="_blank"
+              >Visitar nuestras oficinas</a
+            >
+          </li>
+        </ul>
+      </section>
+
+      <section class="footer_logo">
+        <a href="#inicio">
+          <img
+          class="logo"
+            src="https://drive.google.com/uc?id=1IqvJViLX-k6tzxOjN-VwctmdOVtzEpXL"
+            alt="Logo Academi e-learning"
+            width="50px"
+          />
+          <p class="mb-2">Academia</p>
+        </a>
+      </section>
+
+      <section class="footer_redes">
+        <a href="https://es-la.facebook.com/" target="_blank">
+          <i class="fa-brands fa-meta"></i>
+        </a>
+        <a href="https://www.instagram.com/" target="_blank">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="https://twitter.com/" target="_blank">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+      </section>
+    </footer>
+    <script>
+      AOS.init();
+    </script>
+    <script src="./js/main.js" type="module"></script>
+  </body>
+</html>
