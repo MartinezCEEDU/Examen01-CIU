@@ -161,4 +161,19 @@ footer {
   #Nosotros{
     margin: auto;
   }
+  .banner_title{
+    font-size: small;
+  }
+  .banner_date{
+    font-size: small
+  }
+  
+}
+@media screen and (max-width: 515px) {
+  .banner_text{
+    display: none;
+   }
+   #Charlas{
+    margin: 0;
+   }
 }
