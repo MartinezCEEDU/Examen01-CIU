@@ -1,4 +1,4 @@
-# Examen 01 - Construcción de interfaces de usuarios
+# Examen 01 - Construcción de interfaces de usuario
 
 
 Para este primer examen se realizará la landing page de una academia e-learning, la cual llevará a cabo un evento en el metaverso de Vibrela.
